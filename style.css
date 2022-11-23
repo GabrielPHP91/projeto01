@@ -8,7 +8,6 @@ body {
 #hero {
   width: 592px;
   margin: 0 auto 72px;
-
 }
 
 #hero img {
@@ -28,30 +27,31 @@ h1 span {
   font-weight: bold;
 }
 
-
-span, a {
- color: #FF9900;
+span,
+a {
+  color: #ff9900;
 }
 
-p, #footer {
-  color: #7D7987;
+p,
+#footer {
+  color: #7d7987;
   font-size: 14px;
   line-height: 28px;
 }
 
-
-
-#footer a + a{
+#footer a + a {
   margin-left: 28px;
-
 }
 
 #footer #line {
   width: 568px;
-  height: 0;
-  margin: 0 auto 8px;
+  margin: auto;
+  border-top: 1px #eceff2 solid;
+  padding-bottom: 8px;
+}
 
-  border: 1px #ECEFF2 solid;
+#footer {
+  justify-content: center;
 }
 
 #balls {
@@ -59,8 +59,3 @@ p, #footer {
   bottom: 0px;
   right: 0px;
 }
-
-
-
-
-
